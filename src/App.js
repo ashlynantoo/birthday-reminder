@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import data from "./data";
 import List from "./List";
-function App() {
+
+const App = () => {
   const [people, setPeople] = useState(data);
 
-  function handleClick() {
+  const handleClick = () => {
     setPeople([]);
-  }
+  };
+
   return (
     <main>
       <section className="container">
@@ -16,6 +18,6 @@ function App() {
       </section>
     </main>
   );
-}
+};
 
 export default App;

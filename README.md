@@ -1,3 +1,2 @@
-## Idea
-
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+Birthday Reminder
+A react application that lists those friends whose birthday is today.
